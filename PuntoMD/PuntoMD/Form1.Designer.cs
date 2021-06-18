@@ -106,6 +106,7 @@ namespace PuntoMD
             this.textPass.Font = new System.Drawing.Font("Metropolis Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPass.Location = new System.Drawing.Point(642, 322);
             this.textPass.Name = "textPass";
+            this.textPass.PasswordChar = '*';
             this.textPass.Size = new System.Drawing.Size(332, 23);
             this.textPass.TabIndex = 1;
             // 
@@ -137,7 +138,10 @@ namespace PuntoMD
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
