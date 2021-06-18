@@ -1,0 +1,10 @@
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\PuntoMD.exe.config
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\PuntoMD.exe
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\PuntoMD.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.AssemblyReference.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.Form1.resources
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.Properties.Resources.resources
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.GenerateResource.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.CoreCompileInputs.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.exe
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.pdb
