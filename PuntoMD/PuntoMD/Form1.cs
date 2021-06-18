@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Domain;
 
 namespace PuntoMD
 {
@@ -32,6 +33,43 @@ namespace PuntoMD
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            if (textUsuario.Text != "")
+            {
+                if (textPass.Text != "")
+                {
+                    ModeloUsuario user = new ModeloUsuario();
+                    var validLogin = user.LoginUser(textUsuario.Text, textPass.Text);
+                    if (validLogin == true)
+                    {
+                        Form1 mainMenu = new Form1();
+                        mainMenu.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        msgError("Usuario o contraseña incorrectos, intentelo nuevamente");
+                        textPass.Clear();
+                        textUsuario.Focus();
+                    }
+
+                }
+                else msgError("¡Porfavor ingresa la contraseña");
+            }
+
+            else msgError ("¡Porfavor ingresa el usuario!");
+           
+            
+            
+        }
+        private void msgError(string msg)
+        {
+            lblError.Text = msg;
+            lblError.Visible = true;
+
         }
     }
 }

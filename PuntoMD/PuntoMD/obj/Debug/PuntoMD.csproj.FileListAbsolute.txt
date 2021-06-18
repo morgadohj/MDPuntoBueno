@@ -8,3 +8,10 @@ C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\Punt
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.CoreCompileInputs.cache
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.exe
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\Domain.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\System.Data.SqlClient.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\AccesoDatos.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\Domain.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\System.Data.SqlClient.xml
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\AccesoDatos.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.CopyComplete
