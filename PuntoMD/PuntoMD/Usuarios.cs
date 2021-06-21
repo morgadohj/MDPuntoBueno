@@ -41,6 +41,7 @@ namespace PuntoMD
             var validInserta = inserta.insertaUsuario(txtnombre.Text, textlogin.Text, txtpass.Text, comboBox1.Text);
             panel5.Visible = false;
         }
+        private void muestra 
 
         private void btnagregar_Click(object sender, EventArgs e)
         {

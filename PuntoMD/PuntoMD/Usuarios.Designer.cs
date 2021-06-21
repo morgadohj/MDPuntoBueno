@@ -37,27 +37,27 @@ namespace PuntoMD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.btnagregar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.datausuarios = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtnombre = new System.Windows.Forms.TextBox();
-            this.textlogin = new System.Windows.Forms.TextBox();
-            this.txtpass = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.btnguarda = new System.Windows.Forms.Button();
-            this.btnguardarcambios = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
+            this.btnguardarcambios = new System.Windows.Forms.Button();
+            this.btnguarda = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
+            this.textlogin = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnguardar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datausuarios)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -115,15 +115,15 @@ namespace PuntoMD
             this.btnagregar.UseVisualStyleBackColor = false;
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
-            // dataGridView1
+            // datausuarios
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.datausuarios.AllowUserToAddRows = false;
+            this.datausuarios.AllowUserToResizeRows = false;
+            this.datausuarios.BackgroundColor = System.Drawing.Color.White;
+            this.datausuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.datausuarios, "datausuarios");
+            this.datausuarios.Name = "datausuarios";
+            this.datausuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
             // panel3
             // 
@@ -154,43 +154,45 @@ namespace PuntoMD
             this.panel5.Name = "panel5";
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
-            // label2
+            // btncancelar
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            this.btncancelar.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btncancelar, "btncancelar");
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // btnguardarcambios
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            this.btnguardarcambios.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnguardarcambios, "btnguardarcambios");
+            this.btnguardarcambios.Name = "btnguardarcambios";
+            this.btnguardarcambios.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // btnguarda
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            this.btnguarda.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnguarda, "btnguarda");
+            this.btnguarda.Name = "btnguarda";
+            this.btnguarda.UseVisualStyleBackColor = true;
+            this.btnguarda.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label5
+            // panel8
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel8, "panel8");
+            this.panel8.Name = "panel8";
             // 
-            // txtnombre
+            // panel7
             // 
-            this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtnombre, "txtnombre");
-            this.txtnombre.Name = "txtnombre";
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel7, "panel7");
+            this.panel7.Name = "panel7";
             // 
-            // textlogin
+            // panel6
             // 
-            this.textlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textlogin, "textlogin");
-            this.textlogin.Name = "textlogin";
-            // 
-            // txtpass
-            // 
-            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtpass, "txtpass");
-            this.txtpass.Name = "txtpass";
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
             // 
             // comboBox1
             // 
@@ -206,45 +208,43 @@ namespace PuntoMD
             resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             // 
-            // panel6
+            // txtpass
             // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.Name = "panel6";
+            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtpass, "txtpass");
+            this.txtpass.Name = "txtpass";
             // 
-            // panel7
+            // textlogin
             // 
-            this.panel7.BackColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.Name = "panel7";
+            this.textlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.textlogin, "textlogin");
+            this.textlogin.Name = "textlogin";
             // 
-            // panel8
+            // txtnombre
             // 
-            this.panel8.BackColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.Name = "panel8";
+            this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtnombre, "txtnombre");
+            this.txtnombre.Name = "txtnombre";
             // 
-            // btnguarda
+            // label5
             // 
-            this.btnguarda.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnguarda, "btnguarda");
-            this.btnguarda.Name = "btnguarda";
-            this.btnguarda.UseVisualStyleBackColor = true;
-            this.btnguarda.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
             // 
-            // btnguardarcambios
+            // label4
             // 
-            this.btnguardarcambios.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnguardarcambios, "btnguardarcambios");
-            this.btnguardarcambios.Name = "btnguardarcambios";
-            this.btnguardarcambios.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
-            // btncancelar
+            // label3
             // 
-            this.btncancelar.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btncancelar, "btncancelar");
-            this.btncancelar.Name = "btncancelar";
-            this.btncancelar.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // Usuarios
             // 
@@ -252,7 +252,7 @@ namespace PuntoMD
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.datausuarios);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnguardar);
             this.DoubleBuffered = true;
@@ -264,7 +264,7 @@ namespace PuntoMD
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datausuarios)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
@@ -281,7 +281,7 @@ namespace PuntoMD
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtbuscar;
         private System.Windows.Forms.Button btnagregar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView datausuarios;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btncancelar;
