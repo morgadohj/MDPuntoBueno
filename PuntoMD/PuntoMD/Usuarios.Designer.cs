@@ -29,20 +29,284 @@ namespace PuntoMD
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuarios));
+            this.btnguardar = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnsalir = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnagregar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtnombre = new System.Windows.Forms.TextBox();
+            this.textlogin = new System.Windows.Forms.TextBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.btnguarda = new System.Windows.Forms.Button();
+            this.btnguardarcambios = new System.Windows.Forms.Button();
+            this.btncancelar = new System.Windows.Forms.Button();
+            this.btnguardar.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // btnguardar
+            // 
+            this.btnguardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnguardar.Controls.Add(this.label1);
+            resources.ApplyResources(this.btnguardar, "btnguardar");
+            this.btnguardar.Name = "btnguardar";
+            this.btnguardar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnsalir, "btnsalir");
+            this.btnsalir.ForeColor = System.Drawing.Color.Black;
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.txtbuscar);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // txtbuscar
+            // 
+            this.txtbuscar.BackColor = System.Drawing.Color.White;
+            this.txtbuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtbuscar, "txtbuscar");
+            this.txtbuscar.Name = "txtbuscar";
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnagregar
+            // 
+            this.btnagregar.BackColor = System.Drawing.Color.Transparent;
+            this.btnagregar.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnagregar, "btnagregar");
+            this.btnagregar.ForeColor = System.Drawing.Color.Black;
+            this.btnagregar.Name = "btnagregar";
+            this.btnagregar.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.btnsalir);
+            this.panel3.Controls.Add(this.btnagregar);
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Gray;
+            this.panel4.Controls.Add(this.panel5);
+            resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.Name = "panel4";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.btncancelar);
+            this.panel5.Controls.Add(this.btnguardarcambios);
+            this.panel5.Controls.Add(this.btnguarda);
+            this.panel5.Controls.Add(this.panel8);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.comboBox1);
+            this.panel5.Controls.Add(this.txtpass);
+            this.panel5.Controls.Add(this.textlogin);
+            this.panel5.Controls.Add(this.txtnombre);
+            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.label2);
+            resources.ApplyResources(this.panel5, "panel5");
+            this.panel5.Name = "panel5";
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // txtnombre
+            // 
+            this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtnombre, "txtnombre");
+            this.txtnombre.Name = "txtnombre";
+            // 
+            // textlogin
+            // 
+            this.textlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.textlogin, "textlogin");
+            this.textlogin.Name = "textlogin";
+            // 
+            // txtpass
+            // 
+            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtpass, "txtpass");
+            this.txtpass.Name = "txtpass";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1"),
+            resources.GetString("comboBox1.Items2"),
+            resources.GetString("comboBox1.Items3"),
+            resources.GetString("comboBox1.Items4"),
+            resources.GetString("comboBox1.Items5"),
+            resources.GetString("comboBox1.Items6")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel7, "panel7");
+            this.panel7.Name = "panel7";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panel8, "panel8");
+            this.panel8.Name = "panel8";
+            // 
+            // btnguarda
+            // 
+            this.btnguarda.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnguarda, "btnguarda");
+            this.btnguarda.Name = "btnguarda";
+            this.btnguarda.UseVisualStyleBackColor = true;
+            this.btnguarda.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnguardarcambios
+            // 
+            this.btnguardarcambios.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnguardarcambios, "btnguardarcambios");
+            this.btnguardarcambios.Name = "btnguardarcambios";
+            this.btnguardarcambios.UseVisualStyleBackColor = true;
+            // 
+            // btncancelar
+            // 
+            this.btncancelar.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btncancelar, "btncancelar");
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.UseVisualStyleBackColor = true;
             // 
             // Usuarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btnguardar);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Usuarios";
-            this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
+            this.btnguardar.ResumeLayout(false);
+            this.btnguardar.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel btnguardar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnsalir;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.Button btnagregar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.TextBox textlogin;
+        public System.Windows.Forms.TextBox txtnombre;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button btnguarda;
+        private System.Windows.Forms.Button btnguardarcambios;
+        private System.Windows.Forms.Button btncancelar;
     }
 }
