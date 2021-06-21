@@ -34,17 +34,16 @@ namespace PuntoMD
             this.label1 = new System.Windows.Forms.Label();
             this.btnsalir = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtbuscar = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
             this.btnagregar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.textlogin = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
@@ -60,7 +59,6 @@ namespace PuntoMD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,18 +92,18 @@ namespace PuntoMD
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // txtbuscar
             // 
             this.txtbuscar.BackColor = System.Drawing.Color.White;
             this.txtbuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtbuscar, "txtbuscar");
             this.txtbuscar.Name = "txtbuscar";
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // btnagregar
             // 
@@ -115,6 +113,7 @@ namespace PuntoMD
             this.btnagregar.ForeColor = System.Drawing.Color.Black;
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.UseVisualStyleBackColor = false;
+            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
             // dataGridView1
             // 
@@ -133,33 +132,6 @@ namespace PuntoMD
             this.panel3.Controls.Add(this.btnagregar);
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Gray;
-            this.panel4.Controls.Add(this.panel5);
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
             // 
             // panel5
             // 
@@ -181,6 +153,26 @@ namespace PuntoMD
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
             // 
             // txtnombre
             // 
@@ -258,7 +250,7 @@ namespace PuntoMD
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
@@ -274,7 +266,6 @@ namespace PuntoMD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
@@ -292,21 +283,20 @@ namespace PuntoMD
         private System.Windows.Forms.Button btnagregar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.Button btnguardarcambios;
+        private System.Windows.Forms.Button btnguarda;
+        private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.TextBox textlogin;
         public System.Windows.Forms.TextBox txtnombre;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button btnguarda;
-        private System.Windows.Forms.Button btnguardarcambios;
-        private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }

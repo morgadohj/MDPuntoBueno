@@ -22,7 +22,7 @@ namespace PuntoMD
 
         private void Usuarios_Load(object sender, EventArgs e)
         {
-
+            panel5.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -37,10 +37,14 @@ namespace PuntoMD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtbuscar.Text != "")
-            {
-                SqlConexion con
-            }
+            ModeloInserta inserta = new ModeloInserta();
+            var validInserta = inserta.insertaUsuario(txtnombre.Text, textlogin.Text, txtpass.Text, comboBox1.Text);
+            panel5.Visible = false;
+        }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+            panel5.Visible = true;
         }
     }
 }
