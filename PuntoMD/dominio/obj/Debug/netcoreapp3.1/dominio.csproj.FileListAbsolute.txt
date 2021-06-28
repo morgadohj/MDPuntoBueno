@@ -1,0 +1,12 @@
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\bin\Debug\netcoreapp3.1\dominio.deps.json
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\bin\Debug\netcoreapp3.1\dominio.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\bin\Debug\netcoreapp3.1\dominio.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\bin\Debug\netcoreapp3.1\DataAcces.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\bin\Debug\netcoreapp3.1\DataAcces.pdb
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.csproj.AssemblyReference.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.AssemblyInfoInputs.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.AssemblyInfo.cs
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.csproj.CoreCompileInputs.cache
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.csproj.CopyComplete
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\dominio\obj\Debug\netcoreapp3.1\dominio.pdb
