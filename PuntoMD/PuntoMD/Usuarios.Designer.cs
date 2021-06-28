@@ -40,6 +40,7 @@ namespace PuntoMD
             this.datausuarios = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.lblErrorNombre = new System.Windows.Forms.Label();
             this.btncancelar = new System.Windows.Forms.Button();
             this.btnguardarcambios = new System.Windows.Forms.Button();
             this.btnguarda = new System.Windows.Forms.Button();
@@ -54,7 +55,6 @@ namespace PuntoMD
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblErrorNombre = new System.Windows.Forms.Label();
             this.btnguardar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -156,6 +156,12 @@ namespace PuntoMD
             this.panel5.Name = "panel5";
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
+            // lblErrorNombre
+            // 
+            resources.ApplyResources(this.lblErrorNombre, "lblErrorNombre");
+            this.lblErrorNombre.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorNombre.Name = "lblErrorNombre";
+            // 
             // btncancelar
             // 
             this.btncancelar.FlatAppearance.BorderSize = 0;
@@ -247,12 +253,6 @@ namespace PuntoMD
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            // 
-            // lblErrorNombre
-            // 
-            resources.ApplyResources(this.lblErrorNombre, "lblErrorNombre");
-            this.lblErrorNombre.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorNombre.Name = "lblErrorNombre";
             // 
             // Usuarios
             // 
