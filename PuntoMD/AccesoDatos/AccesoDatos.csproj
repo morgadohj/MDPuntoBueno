@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MdMuestra.cs" />
     <Compile Include="MdUser.cs" />
+    <Compile Include="MdIngresa.cs" />
     <Compile Include="SqlConexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

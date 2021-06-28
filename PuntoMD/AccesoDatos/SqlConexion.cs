@@ -11,7 +11,7 @@ namespace AccesoDatos
         private readonly string connectionString;
         public SqlConexion()
         {
-            connectionString = "Server = 25.79.95.49; DataBase = MDPV; User = Admin; Password = *159753*";
+            connectionString = "data source = 25.79.95.49; initial catalog = MDPV; user id = Admin; Password = *159753*";
 
         }
         protected SqlConnection GetConnection()

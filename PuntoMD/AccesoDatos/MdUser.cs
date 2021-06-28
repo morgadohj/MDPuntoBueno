@@ -21,7 +21,7 @@ namespace AccesoDatos
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select * from USUARIOS WHWRE login = @login and password = @pass";
+                    command.CommandText = "select * from USUARIOS WHERE login = @login and password = @pass";
                     command.Parameters.AddWithValue("@login", user);
                     command.Parameters.AddWithValue("@pass", pass);
                     command.CommandType = CommandType.Text;

@@ -45,7 +45,7 @@ namespace PuntoMD
                     var validLogin = user.LoginUser(textUsuario.Text, textPass.Text);
                     if (validLogin == true)
                     {
-                        Form1 mainMenu = new Form1();
+                        Usuarios mainMenu = new Usuarios();
                         mainMenu.Show();
                         this.Hide();
                     }
@@ -70,6 +70,12 @@ namespace PuntoMD
             lblError.Text = msg;
             lblError.Visible = true;
 
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+          
+                Application.Exit();
         }
     }
 }

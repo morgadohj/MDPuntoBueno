@@ -15,3 +15,7 @@ C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\Doma
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\System.Data.SqlClient.xml
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\AccesoDatos.pdb
 C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.csproj.CopyComplete
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\bin\Debug\aa-ER\PuntoMD.resources.dll
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.Usuarios.resources
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\PuntoMD.Usuarios.aa-ER.resources
+C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\PuntoMD\obj\Debug\aa-ER\PuntoMD.resources.dll
