@@ -55,6 +55,12 @@ namespace PuntoMD
             lblErrorNombre.Visible = true;
 
         }
+        public void muestra()
+        {
+            ModeloMuestra muestra = new  ModeloMuestra();
+            datausuarios.DataSource = Muestra.muestraUsuario;
+
+        }
 
 
         private void btnagregar_Click(object sender, EventArgs e)
