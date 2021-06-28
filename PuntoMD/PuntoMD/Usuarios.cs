@@ -59,7 +59,7 @@ namespace PuntoMD
         {
             ModeloMuestra muestra = new  ModeloMuestra();
             datausuarios.DataSource = Muestra.muestraUsuario;
-
+            datausuarios.Columns[0]
         }
 
 
