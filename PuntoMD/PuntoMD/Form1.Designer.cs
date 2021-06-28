@@ -37,6 +37,7 @@ namespace PuntoMD
             this.textUsuario = new System.Windows.Forms.TextBox();
             this.textPass = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lblError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -55,6 +56,7 @@ namespace PuntoMD
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSalir
             // 
@@ -70,6 +72,7 @@ namespace PuntoMD
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // pictureBox1
             // 
@@ -122,12 +125,25 @@ namespace PuntoMD
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Has olvidado tu contraseña?";
             // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Metropolis Medium", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(662, 375);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(46, 13);
+            this.lblError.TabIndex = 6;
+            this.lblError.Text = "¡Error!";
+            this.lblError.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1094, 593);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.textPass);
             this.Controls.Add(this.textUsuario);
@@ -158,6 +174,7 @@ namespace PuntoMD
         private System.Windows.Forms.TextBox textUsuario;
         private System.Windows.Forms.TextBox textPass;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label lblError;
     }
 }
 
