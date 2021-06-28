@@ -37,11 +37,25 @@ namespace PuntoMD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ModeloInserta inserta = new ModeloInserta();
-            var validInserta = inserta.insertaUsuario(txtnombre.Text, textlogin.Text, txtpass.Text, comboBox1.Text);
-            panel5.Visible = false;
+            if (txtnombre.Text != "" && textlogin.Text != "" && txtpass.Text != "")
+            {
+                ModeloInserta inserta = new ModeloInserta();
+                var validInserta = inserta.insertaUsuario(txtnombre.Text, textlogin.Text, txtpass.Text, comboBox1.Text);
+                panel5.Visible = false;
+            }
+
+            else msgError("¡Ingresa todos los campos requeridos!");
+
+
+
         }
-        private void muestra 
+        private void msgError(string msg)
+        {
+            lblErrorNombre.Text = msg;
+            lblErrorNombre.Visible = true;
+
+        }
+
 
         private void btnagregar_Click(object sender, EventArgs e)
         {

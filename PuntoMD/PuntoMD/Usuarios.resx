@@ -117,11 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>btnguardar</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnguardar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnguardar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnguardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 113</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnguardar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Name" xml:space="preserve">
+    <value>btnguardar</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Metropolis Black, 24pt, style=Bold</value>
   </data>
@@ -148,31 +185,6 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnguardar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="btnguardar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="btnguardar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1354, 113</value>
-  </data>
-  <data name="btnguardar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnguardar.Name" xml:space="preserve">
-    <value>btnguardar</value>
-  </data>
-  <data name="&gt;&gt;btnguardar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnguardar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnguardar.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="btnsalir.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -237,6 +249,54 @@
   </data>
   <data name="&gt;&gt;btnsalir.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbuscar.Name" xml:space="preserve">
+    <value>txtbuscar</value>
+  </data>
+  <data name="&gt;&gt;txtbuscar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbuscar.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;txtbuscar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 113</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 71</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -320,30 +380,6 @@
   </data>
   <data name="&gt;&gt;txtbuscar.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 113</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1354, 71</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="btnagregar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -460,6 +496,42 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="lblErrorNombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblErrorNombre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Metropolis, 12pt, style=Bold</value>
+  </data>
+  <data name="lblErrorNombre.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="lblErrorNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 96</value>
+  </data>
+  <data name="lblErrorNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="lblErrorNombre.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblErrorNombre.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="lblErrorNombre.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblErrorNombre.Name" xml:space="preserve">
+    <value>lblErrorNombre</value>
+  </data>
+  <data name="&gt;&gt;lblErrorNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblErrorNombre.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;lblErrorNombre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btncancelar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -508,7 +580,7 @@
     <value>NoControl</value>
   </data>
   <data name="btncancelar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 215</value>
+    <value>259, 304</value>
   </data>
   <data name="btncancelar.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 115</value>
@@ -532,7 +604,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;btncancelar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnguardarcambios.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -576,7 +648,7 @@
     <value>On</value>
   </data>
   <data name="btnguardarcambios.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 215</value>
+    <value>129, 306</value>
   </data>
   <data name="btnguardarcambios.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 115</value>
@@ -600,7 +672,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;btnguardarcambios.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnguarda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -644,7 +716,7 @@
     <value>On</value>
   </data>
   <data name="btnguarda.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 215</value>
+    <value>63, 306</value>
   </data>
   <data name="btnguarda.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 115</value>
@@ -668,7 +740,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;btnguarda.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 141</value>
@@ -689,7 +761,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 79</value>
@@ -710,7 +782,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 30</value>
@@ -731,7 +803,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
     <value>ADMINISTRADOR</value>
@@ -773,7 +845,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="txtpass.Location" type="System.Drawing.Point, System.Drawing">
     <value>131, 120</value>
@@ -794,7 +866,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;txtpass.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="textlogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Metropolis, 12pt, style=Bold</value>
@@ -818,7 +890,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;textlogin.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="txtnombre.Font" type="System.Drawing.Font, System.Drawing">
     <value>Metropolis, 12pt, style=Bold</value>
@@ -842,7 +914,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;txtnombre.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -875,7 +947,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -908,7 +980,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -941,7 +1013,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -974,7 +1046,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="panel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>

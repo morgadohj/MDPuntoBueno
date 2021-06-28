@@ -54,6 +54,7 @@ namespace PuntoMD
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblErrorNombre = new System.Windows.Forms.Label();
             this.btnguardar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -136,6 +137,7 @@ namespace PuntoMD
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.lblErrorNombre);
             this.panel5.Controls.Add(this.btncancelar);
             this.panel5.Controls.Add(this.btnguardarcambios);
             this.panel5.Controls.Add(this.btnguarda);
@@ -246,6 +248,12 @@ namespace PuntoMD
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
+            // lblErrorNombre
+            // 
+            resources.ApplyResources(this.lblErrorNombre, "lblErrorNombre");
+            this.lblErrorNombre.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorNombre.Name = "lblErrorNombre";
+            // 
             // Usuarios
             // 
             resources.ApplyResources(this, "$this");
@@ -298,5 +306,6 @@ namespace PuntoMD
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblErrorNombre;
     }
 }
