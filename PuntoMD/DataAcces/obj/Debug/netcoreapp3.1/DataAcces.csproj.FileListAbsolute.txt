@@ -1,9 +1,0 @@
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\bin\Debug\netcoreapp3.1\DataAcces.deps.json
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\bin\Debug\netcoreapp3.1\DataAcces.dll
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\bin\Debug\netcoreapp3.1\DataAcces.pdb
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.csproj.AssemblyReference.cache
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.AssemblyInfoInputs.cache
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.AssemblyInfo.cs
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.csproj.CoreCompileInputs.cache
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.dll
-C:\Users\ALMACEN-DELFIN\source\repos\MDPuntoBueno\PuntoMD\DataAcces\obj\Debug\netcoreapp3.1\DataAcces.pdb
