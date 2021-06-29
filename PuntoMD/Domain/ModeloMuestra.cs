@@ -7,12 +7,12 @@ using AccesoDatos;
 
 namespace Domain
 {
-    public class ModeloMuestra : MdMuestra
+    public class ModeloMuestra 
     {
         MdMuestra mdMuestra = new MdMuestra();
-        public bool muestraUsuario(string nombre, string user, string pass, string rol)
+        public bool muestraUsuario()
         {
-            return mdMuestra.Muestra(nombre, user, pass, rol);
+            return mdMuestra.Muestra();
         }
     }
 }

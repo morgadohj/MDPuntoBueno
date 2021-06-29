@@ -55,6 +55,7 @@ namespace PuntoMD
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
             this.btnguardar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -122,6 +123,8 @@ namespace PuntoMD
             this.datausuarios.AllowUserToResizeRows = false;
             this.datausuarios.BackgroundColor = System.Drawing.Color.White;
             this.datausuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datausuarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Eliminar});
             resources.ApplyResources(this.datausuarios, "datausuarios");
             this.datausuarios.Name = "datausuarios";
             this.datausuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -254,6 +257,13 @@ namespace PuntoMD
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
+            // Eliminar
+            // 
+            resources.ApplyResources(this.Eliminar, "Eliminar");
+            this.Eliminar.Image = ((System.Drawing.Image)(resources.GetObject("Eliminar.Image")));
+            this.Eliminar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Eliminar.Name = "Eliminar";
+            // 
             // Usuarios
             // 
             resources.ApplyResources(this, "$this");
@@ -307,5 +317,6 @@ namespace PuntoMD
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblErrorNombre;
+        private System.Windows.Forms.DataGridViewImageColumn Eliminar;
     }
 }

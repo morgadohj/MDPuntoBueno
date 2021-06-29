@@ -412,14 +412,32 @@
   <data name="&gt;&gt;btnagregar.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="datausuarios.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <metadata name="Eliminar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Eliminar.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAIfSURBVHhe7daxbVRRFEXRCRxSBgW4BDqiCIcOCQkJKYKQEggJHLgIAngTjLSDjSBguO88nSXt
+        1Lrnf42+L1VVVVVVVVVVVcPer37+465/s/7CPR7+rb6EP7jnw7/Vl/Ab/+Ph3zr6Jdjgk9qeHX1S27Oj
+        T2p7dvRJbc+OPqnt2dEntT07+qS2Z0efVFVVVQz7kCUVz0YlFc9GJRXPRiUVz0YlFc9GJRXPRiUVz0Yl
+        Fc9GsWl2E4tno9g0u4nFs1Fsmt3E4tkoNs1uYvFsFJtmN7F4NopNs5tYPBvFptlNLJ6NYtPsJhbPRrFp
+        dhOLZ6PYNLuJxbNRbJrdxOLZKDbNbmLxbBSbZjexeDaKTbObWDwbxabZTSyejWLT7CYWz0axaXYTi2ej
+        2DS7icWzUWya3cTi2Sg2zW5i8WwUm2Y3sXg2ik2zm1g8G8Wm2U0sno1i0+wmFs9GsWl2E4tno9g0u4nF
+        s1Fsmt3E4tkoNs1uYvFsFJtmN7F4NopNs5tYPBvFptlNLJ6NYtPsJhbPRrFpdhOLZ6PYNLuJxbNRbJrd
+        xOLZKDbNbmLxbBSbZjexeDaKTbObWDwbxabZTSyejWLT7CYWz0al9LKK97qycQl9XcX7tLJxCT2t4r1b
+        2bjd+7F6uzrC55WN3Lnn1THerL6tbOiOfVk9rI5yfQkJv4QPq+MePl2/CdcP807/HX1ffVw9rqqqqqqq
+        qqqqqu7gcvkFdwt9IlWQtnYAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="datausuarios.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 184</value>
   </data>
   <data name="datausuarios.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1354, 578</value>
+    <value>1079, 578</value>
   </data>
   <data name="datausuarios.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2312,6 +2330,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Usuarios</value>
+  </data>
+  <data name="&gt;&gt;Eliminar.Name" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="&gt;&gt;Eliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Usuarios</value>

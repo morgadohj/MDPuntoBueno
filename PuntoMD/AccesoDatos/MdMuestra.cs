@@ -9,9 +9,21 @@ using System.Data;
 
 namespace AccesoDatos
 {
-    public class MdMuestra:SqlConexion 
+
+    class Muestra
     {
-        public bool Muestra(string nombre, string user, string pass, string rol)
+        private SqlConexion = new SqlConexionn();
+
+    
+    }
+    
+    
+    
+    
+    
+    /*public class MdMuestra:SqlConexion 
+    {
+        public bool Muestra()
         {
             using (var connection = GetConnection())
             {
@@ -24,14 +36,14 @@ namespace AccesoDatos
                     DataTable dt = new DataTable();
                     SqlDataAdapter da;
                     da = new SqlDataAdapter("mostrar_usuarios", connection);
-                    da.Fill(dt);
+                     da.Fill(dt);
 
-                    return true;
+                    return da;
 
-
-                }
+                       }
             }
 
+          
         }
-    }
+    }*/
 }
