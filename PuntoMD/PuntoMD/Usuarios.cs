@@ -42,6 +42,7 @@ namespace PuntoMD
                 ModeloInserta inserta = new ModeloInserta();
                 var validInserta = inserta.insertaUsuario(txtnombre.Text, textlogin.Text, txtpass.Text, comboBox1.Text);
                 panel5.Visible = false;
+                muestra();
             }
 
             else msgError("¡Ingresa todos los campos requeridos!");
@@ -54,6 +55,13 @@ namespace PuntoMD
             lblErrorNombre.Text = msg;
             lblErrorNombre.Visible = true;
 
+        }
+        private void muestra()
+        {
+            ModeloMuestra muestra = new  ModeloMuestra();
+          
+            datausuarios.DataSource =  muestra.muestraUsuario();
+          
         }
 
 
