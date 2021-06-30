@@ -10,18 +10,30 @@ using System.Data;
 namespace AccesoDatos
 {
 
-    class Muestra
+   /* public class Muestra
     {
-        private SqlConexion = new SqlConexionn();
+        private SqlConexion conexion = new SqlConexion();
+        SqlDataReader leer;
+        DataTable tabla = new DataTable();
+        SqlCommand command = new SqlCommand();
+        public DataTable Mostrar()
+        {
+            command.CommandText = "mostrar_usuario";
+            command.CommandType = CommandType.StoredProcedure;
+            leer = command.ExecuteReader();
+            tabla.Load(leer);
+            return tabla;
+        }
+
 
     
-    }
+    }*/
     
     
     
     
     
-    /*public class MdMuestra:SqlConexion 
+    public class MdMuestra:SqlConexion 
     {
         public bool Muestra()
         {
@@ -45,5 +57,5 @@ namespace AccesoDatos
 
           
         }
-    }*/
+    }
 }

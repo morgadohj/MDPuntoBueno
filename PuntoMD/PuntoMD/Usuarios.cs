@@ -15,6 +15,7 @@ namespace PuntoMD
 {
     public partial class Usuarios : Form
     {
+      
         public Usuarios()
         {
             InitializeComponent();
@@ -58,10 +59,10 @@ namespace PuntoMD
         }
         private void muestra()
         {
-            ModeloMuestra muestra = new  ModeloMuestra();
-          
-            datausuarios.DataSource =  muestra.muestraUsuario();
-          
+            ModeloMuestra obetoMuestra = new ModeloMuestra();
+            datausuarios.DataSource = obetoMuestra.MostrarProd();
+
+
         }
 
 

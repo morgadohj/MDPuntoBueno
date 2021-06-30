@@ -4,15 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AccesoDatos;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace Domain
 {
-    public class ModeloMuestra 
+   public class ModeloMuestra
     {
-        MdMuestra mdMuestra = new MdMuestra();
-        public bool muestraUsuario()
+        private Muestra obetoMuestra = new Muestra();
+
+        public DataTable MostrarProd()
         {
-            return mdMuestra.Muestra();
+
+            DataTable tabla = new DataTable();
+            tabla = obetoMuestra.Mostrar();
+            return tabla;
         }
+
     }
 }
